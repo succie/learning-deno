@@ -1,5 +1,5 @@
 import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
-import { add, sub, mul, div } from "./index.ts";
+import { add, sub, mul, div } from "./calculate.ts";
 
 Deno.test("add", () => {
   assertEquals(add(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), 55);
